@@ -1,0 +1,70 @@
+@media only screen and (max-width:700px){
+	#Bar{
+		width: 93% !important;
+	}
+	#BarDiv{
+		width: 95% !important;
+	}
+	#Balor{
+		width: 92% !important;
+	}
+	#inp, #oper{
+		width: 40px !important;
+		font-size: 16px !important;
+		padding: 5px !important;
+	}
+	#oper{
+		height: 80px !important;
+	}
+}
+
+body{
+	margin: 0px;
+	font-family: sans-serif;
+}
+#Bar{
+	border: 2px solid;
+	border-radius: 5px;
+	background: black;
+	color:white;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    width: 415px;
+    height: 58px;
+}
+#Bell{
+	border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 350px;
+    background: black;
+}
+#inp, #oper{
+	background: black;
+	color: white;
+    width: 60px;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    transition: ease 0.8s;
+}
+#BarDiv{
+	width: 444px;
+    margin: 0px auto;
+    margin-top:10px;
+}
+#oper{
+	padding:20px;
+}
+#inp:focus, #inp:hover, #oper:focus, #oper:hover{
+	background: red;
+	transform: scale(1.1, 1.1);
+}
+#Balor{
+	width: 430px;
+	display: flex;
+    margin: 5px auto;
+}
